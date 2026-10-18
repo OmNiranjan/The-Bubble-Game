@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+    height: 100%;
+    border: 5px solid black;
+       background-color: rgb(247, 172, 220);
+}
+#second{
+    width: 85%;
+    /* height: 90%; Yeh hata kar sir ki tarah height manage karo */
+    height: 85vh; /* Ya calc(100vh - 40px) */
+    background-color: rgb(143, 221, 254);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+ #inner{
+    background-color: orange;
+    width: 100%;
+    height: 20px;
+    padding: 15px 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.third{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.box{
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 5px;
+    
+}
+#btm {
+    width: 100%;
+    height: 100%; /* Yeh poori bachi hui height le lega */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(53, 102, 53);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bubble:hover {
+    background-color: rgb(32, 65, 32);
+}
+/* #second{
+    width: 85%;
+    height: 85%;
+    background-color: rgb(143, 221, 254);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+} */
+ /* #btm{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 20px);
+    padding: 10px;
+     
+} */
